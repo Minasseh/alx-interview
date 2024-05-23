@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+""" Function to validate UTF-8 """
 
 
 def validUTF8(data):
+    """ A method that determines if a given data set
+    represents a valid UTF-8 encoding """
     num_bytes = 0
 
     for num in data:
